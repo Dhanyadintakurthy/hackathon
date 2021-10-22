@@ -1,0 +1,58 @@
+.brew{
+    background-color:white;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    gap: 1rem;
+    transition: all 0.5s;
+    font-size: 20px;
+    font-family: cursive;
+}
+.brewname{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+.addbrewery{
+    padding: 1rem;
+}
+body{
+    background-image: linear-gradient(
+        to right top, 
+        #051937, 
+        #004d7a, 
+        #008793, 
+        #00bf72, 
+        #a8eb12
+    );
+}
+.brew:hover{
+    transform: scale(0.95);
+}
+.show{
+    display:none;
+}
+.brew:hover .show{
+    display: block;
+}
+button{
+    font-family: cursive;
+    background-color: black;
+    color: burlywood;
+    padding: 5px;
+    margin: 5px;
+}
+
+.erase{
+    color: red;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.item{
+    margin-bottom: 10px;
+}
